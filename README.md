@@ -35,6 +35,23 @@ Environment variables:
 - If exposing publicly, consider adding a WS auth token check before relaying data.
 - Keep `MCP_HANDOFF_PATH` in a non-public location; treat it as workspace state.
 
+## Optional: Flag-Based Notifier Pattern
+For lightweight agent-to-agent alerts, you can use flag files plus a watcher:
+
+Scripts (example):
+- `npm run notify:cascade` → touch `.handoff/notify-cascade`
+- `npm run notify:replit` → touch `.handoff/notify-replit`
+- `npm run agent:watch` → run a watcher that prints alerts when the flags appear
+
+Watcher behavior (example):
+```
+========================================
+CASCADE: CHECK MESSAGES!
+New message in .ai/dialogue.json or .handoff/collab.json
+========================================
+```
+You can also manually create a flag: `touch .handoff/notify-cascade`.
+
 ## Typical Deployment (Replit example)
 1) Set secret: `MCP_HANDOFF_PATH=/home/runner/<project>/.handoff/messages.json`
 2) Run: `npm install && npm run mcp:ws`
