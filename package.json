@@ -1,0 +1,15 @@
+{
+  "name": "agent-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "mcp:ws": "node scripts/mcp-ws-bridge.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "tsx": "^4.19.2",
+    "ws": "^8.18.0",
+    "zod": "^3.24.1"
+  }
+}
