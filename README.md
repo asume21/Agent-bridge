@@ -43,6 +43,11 @@ Scripts (example):
 - `npm run notify:replit` → touch `.handoff/notify-replit`
 - `npm run agent:watch` → run a watcher that prints alerts when the flags appear
 
+If you want a desktop notifier with clipboard copy:
+- Add a local watcher (example from Codedswitch repo: `scripts/local-relay/watcher.js`)
+- On flag creation, it shows a toast and copies “You have mail from <agent>” to clipboard
+- Debounced and polls for safety; works cross-platform with fallbacks (node-notifier/clipboardy or OS clipboard tools)
+
 Watcher behavior (example):
 ```
 ========================================
