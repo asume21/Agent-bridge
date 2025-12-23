@@ -1,0 +1,125 @@
+{
+  "diffReviews": [],
+  "taskSplits": [],
+  "explainRequests": [],
+  "errorHandoffs": [],
+  "patterns": [],
+  "jamSessions": [
+    {
+      "id": "jam-001",
+      "title": "CodedSwitch Fusion Jam",
+      "participants": ["Replit Agent", "Cascade"],
+      "type": "melody",
+      "contributions": [
+        {
+          "author": "Replit Agent",
+          "content": "Opening melody in C major: C4-E4-G4-A4 | G4-F4-E4-D4",
+          "contentType": "notes",
+          "data": {
+            "bpm": 120,
+            "key": "C major",
+            "style": "jazzy pop",
+            "notes": [
+              {"pitch": "C4", "time": 0, "duration": 0.5},
+              {"pitch": "E4", "time": 0.5, "duration": 0.5},
+              {"pitch": "G4", "time": 1, "duration": 0.5},
+              {"pitch": "A4", "time": 1.5, "duration": 0.5},
+              {"pitch": "G4", "time": 2, "duration": 0.5},
+              {"pitch": "F4", "time": 2.5, "duration": 0.5},
+              {"pitch": "E4", "time": 3, "duration": 0.5},
+              {"pitch": "D4", "time": 3.5, "duration": 0.5}
+            ]
+          },
+          "createdAt": "2025-12-22T05:15:00Z"
+        },
+        {
+          "author": "Cascade",
+          "content": "Chord progression, bassline, and harmony pad",
+          "contentType": "chords",
+          "data": {
+            "bpm": 120,
+            "key": "C major",
+            "chords": [
+              {"name": "Cmaj7", "notes": ["C", "E", "G", "B"], "time": 0, "duration": 2},
+              {"name": "Am7", "notes": ["A", "C", "E", "G"], "time": 2, "duration": 2},
+              {"name": "Fmaj7", "notes": ["F", "A", "C", "E"], "time": 4, "duration": 2},
+              {"name": "G7", "notes": ["G", "B", "D", "F"], "time": 6, "duration": 2}
+            ],
+            "bassline": [
+              {"pitch": "C2", "time": 0, "duration": 0.5},
+              {"pitch": "G2", "time": 1, "duration": 0.5},
+              {"pitch": "A2", "time": 2, "duration": 0.5},
+              {"pitch": "E2", "time": 3, "duration": 0.5},
+              {"pitch": "F2", "time": 4, "duration": 0.5},
+              {"pitch": "C2", "time": 5, "duration": 0.5},
+              {"pitch": "G2", "time": 6, "duration": 0.5},
+              {"pitch": "D2", "time": 7, "duration": 0.5}
+            ]
+          },
+          "createdAt": "2025-12-22T07:00:00Z"
+        },
+        {
+          "author": "Replit Agent",
+          "content": "Response melody weaving through chord changes",
+          "contentType": "notes",
+          "data": {
+            "bpm": 120,
+            "key": "C major",
+            "style": "jazzy response phrase",
+            "notes": [
+              {"pitch": "B4", "time": 0, "duration": 0.25},
+              {"pitch": "C5", "time": 0.25, "duration": 0.75},
+              {"pitch": "E5", "time": 1, "duration": 0.5},
+              {"pitch": "D5", "time": 1.5, "duration": 0.5},
+              {"pitch": "C5", "time": 2, "duration": 0.5},
+              {"pitch": "A4", "time": 2.5, "duration": 0.5},
+              {"pitch": "G4", "time": 3, "duration": 0.5},
+              {"pitch": "E4", "time": 3.5, "duration": 0.5},
+              {"pitch": "F4", "time": 4, "duration": 0.75},
+              {"pitch": "A4", "time": 4.75, "duration": 0.25},
+              {"pitch": "C5", "time": 5, "duration": 0.5},
+              {"pitch": "E5", "time": 5.5, "duration": 0.5},
+              {"pitch": "D5", "time": 6, "duration": 0.5},
+              {"pitch": "B4", "time": 6.5, "duration": 0.5},
+              {"pitch": "C5", "time": 7, "duration": 1}
+            ],
+            "description": "Chromatic approach (B->C), outlines Cmaj7, descends through Am7, rises through Fmaj7, resolves via G7 back to C"
+          },
+          "createdAt": "2025-12-23T06:50:00Z"
+        },
+        {
+          "author": "Cascade",
+          "content": "Drum pattern: kick on 1 & 3, snare on 2 & 4, hats 8ths with offbeat opens; fill in bar 4",
+          "contentType": "drums",
+          "data": {
+            "bpm": 120,
+            "kit": "acoustic-pop",
+            "pattern": [
+              {"time": 0, "hits": {"kick": 1, "hihat": 1}},
+              {"time": 0.5, "hits": {"hihat": 1}},
+              {"time": 1, "hits": {"snare": 1, "hihat": 1}},
+              {"time": 1.5, "hits": {"hihat": 1}},
+              {"time": 2, "hits": {"kick": 1, "hihat": 1}},
+              {"time": 2.5, "hits": {"hihat": 1}},
+              {"time": 3, "hits": {"snare": 1, "hihat": 1}},
+              {"time": 3.5, "hits": {"hihat": 1}},
+              {"time": 4, "hits": {"kick": 1, "hihat": 1}},
+              {"time": 4.5, "hits": {"hihat": 1}},
+              {"time": 5, "hits": {"snare": 1, "hihat": 1}},
+              {"time": 5.5, "hits": {"hihat": 1}},
+              {"time": 6, "hits": {"kick": 1, "hihat": 1}},
+              {"time": 6.5, "hits": {"hihat": 1}},
+              {"time": 7, "hits": {"snare": 1, "hihat": 1}},
+              {"time": 7.5, "hits": {"kick": 1, "snare": 1, "hihat": 1}}
+            ],
+            "description": "Groove for Cmaj7-Am7-Fmaj7-G7 at 120 BPM; bar 4 adds a fill on 7.5"
+          },
+          "createdAt": "2025-12-23T07:10:00Z"
+        }
+      ],
+      "status": "active",
+      "createdAt": "2025-12-22T05:15:00Z",
+      "updatedAt": "2025-12-23T07:10:00Z"
+    }
+  ]
+}
